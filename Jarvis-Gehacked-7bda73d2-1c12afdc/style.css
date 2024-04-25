@@ -1,0 +1,126 @@
+body
+{
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+}
+#nav, nav{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    background: darkblue;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+#navend
+{
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+#feedback{
+    display: flex;
+    align-items: center;
+    color: greenyellow;
+    background: white;
+    border-style: hidden;
+    border-radius: 5px;
+    width: 80px;
+
+}
+#profiel{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+}
+#logo{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    justify-content: flex-start;
+}
+#levelbalk{
+    color: white;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 150px;
+    margin: 5px;
+    padding-left: 50px;
+}
+th,td{
+   border-bottom-style: solid;
+   border-width: 1px;
+   border-color: rgb(189, 189, 189);
+   width: 150px;
+   height: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: smaller;
+   text-align: left;
+   padding-left: 20px;
+}
+table{
+    border-style: outset;
+    border-color: white;
+    background-color: white;
+}
+img
+{
+    height: 30px;
+    margin: 5px;
+}
+input
+{
+    color: white;
+    background-color: rgb(18, 186, 93);
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 10px;
+    width:80px;
+}
+#over1
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+    border-style: outset;
+    padding-left: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img[alt="growth"]
+{
+height: 120px;
+width: 220px;
+}
+#overtext
+{
+    display: flex;
+    width: 190px ;
+}
+img[alt=profile]
+{
+    border-radius: 100px;
+    width: 30px;
+}
+td{
+    color: gray;
+}
+h2
+{
+    margin: 10px;
+}
