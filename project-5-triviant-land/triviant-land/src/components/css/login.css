@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  font-family: 'Cabin', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./../img/strand.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px 25px;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.1rem;
+  width: 100%;
+     min-width: 500px;
+  gap: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  margin: 1rem;
+}
+
+input, button {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: white;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, button:hover {
+  border-color: #38a09e;
+  outline: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: #38a09e;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+a {
+  color: #38a09e;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2a6b6b;
+}
+
+@media (max-width: 768px) {
+  form {
+    font-size: 1rem;
+    padding: 25px 20px;
+  }
+
+  input, button {
+    font-size: 0.95rem;
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  form {
+    font-size: 0.95rem;
+    padding: 20px 15px;
+  }
+
+  input, button {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+}

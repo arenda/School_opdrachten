@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS TriviantLand;
+
+CREATE TABLE IF NOT EXISTS Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    score INT NOT NULL DEFAULT 0 CHECK (score >= 0),
+    streaks INT DEFAULT NULL
+);

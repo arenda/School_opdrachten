@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+* {
+  font-family: 'Cabin';
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-image: url(./src/components/img/island.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  font-size: 16px;
+
+}
+
+h2.account {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.account-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  opacity: 0.8;
+  margin-top: 12%;
+  border: 2px solid #42acaa;
+  transition: all 0.3s ease;
+
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #42acaa;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #38a09e;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+  padding: 12px 15px;
+  background: linear-gradient(135deg, rgb(255, 126, 95), rgb(254, 180, 123));
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.delete-button {
+  width: 50%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #f00000;;
+  color: white;
+  font-size: 16px;
+  border: 2px solid #cc0000;
+  border-radius: 8px;
+}
+
+.delete-button:hover {
+  background: linear-gradient(135deg, #cc0000, #aa0000);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(204, 0, 0, 0.3);
+}
+
+.logout-button {
+  width: 47%;
+  padding: 12px;
+  background-color: #42acaa;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.logout-button:hover {
+  background-color: #38a09e;
+}
+.readonly-input {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
